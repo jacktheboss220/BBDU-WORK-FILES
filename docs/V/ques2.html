@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Question2</title>
+	</head>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.container {
+			width: 80%;
+			margin: 1rem auto;
+			padding: 20px;
+			border: 1px solid black;
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		.span {
+			display: flex;
+		}
+		input,
+		textarea {
+			margin: 1rem;
+			flex-grow: 1;
+		}
+		label {
+			font-weight: 600;
+			margin: 1rem;
+			font-size: 1.2rem;
+		}
+		input[type='submit'],
+		button {
+			cursor: pointer;
+			margin: 1rem;
+			padding: 0.5rem;
+			border: 1px solid black;
+			border-radius: 5px;
+		}
+
+		.totals {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.btn {
+			display: flex;
+			justify-content: right;
+		}
+	</style>
+	<body>
+		<div class="container">
+			<h2>KOLA Ice Cream</h2>
+			<form action="#">
+				<div class="span">
+					<label for="orderNo"> Order No. </label>
+					<input type="text" name="orderNo" id="orderNo" />
+				</div>
+				<div class="span">
+					<label for="name"> Name </label>
+					<input type="text" name="name" id="name" />
+				</div>
+				<textarea name="order" id="order" cols="30" rows="6"></textarea>
+				<label for="type"> Ice Cream Type : Premium </label>
+				<div class="span">
+					<label for="volume"> Volume </label>
+					<input type="number" name="volume" id="volume" />
+				</div>
+				<div class="totals">
+					<label for="total"> Total Price </label>
+					<input type="number" name="total" id="total" />
+					<button>Calculate</button>
+				</div>
+				<div class="btn">
+					<button>Purchase</button>
+					<button>Back</button>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

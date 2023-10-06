@@ -1,0 +1,35 @@
+.tech {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 50px 0;
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+}
+
+.tech .box {
+	padding-top: 1rem;
+	background-color: #f1ecec9c;
+	width: 30%;
+	height: 300px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tech .box img {
+	object-fit: contain;
+}
+
+.tech h1 {
+	width: 90%;
+	margin: 10px auto;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+}
+
+.tech p {
+	width: 90%;
+	margin: 1rem auto;
+	height: 100%;
+}

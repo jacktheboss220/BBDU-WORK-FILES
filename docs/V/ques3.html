@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Question3</title>
+	</head>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.container {
+			width: 90%;
+			margin: 1rem auto;
+			padding: 20px;
+			display: flex;
+			justify-content: center;
+		}
+		form {
+			border: 2px solid black;
+			padding: 1rem;
+		}
+
+		label,
+		input {
+			font-weight: 600;
+			margin: 0.5rem 0;
+			text-indent: 6px;
+		}
+
+		.personal,
+		.account,
+		.contact {
+			display: flex;
+			gap: 1rem;
+			margin: 1rem 0;
+		}
+
+		.labels {
+			display: flex;
+			/* width: 30%; */
+			white-space: nowrap;
+			flex-direction: column;
+		}
+		.inputs {
+			display: flex;
+			width: 100%;
+			flex-direction: column;
+		}
+		select {
+			width: 100%;
+			margin: 0.5rem 0;
+		}
+	</style>
+	<body>
+		<div class="container">
+			<form action="#">
+				<h3>Personal Details</h3>
+				<div class="personal">
+					<div class="labels">
+						<label for="firstName">First Name</label>
+						<label for="lastName">Last Name</label>
+						<label for="date">Date</label>
+						<label for="gender">Gender</label>
+					</div>
+					<div class="inputs">
+						<input
+							type="text"
+							name="firstName"
+							id="firstName"
+							placeholder="First Name"
+							required
+						/>
+						<input
+							type="text"
+							name="lastName"
+							id="lastName"
+							placeholder="Last Name"
+							required
+						/>
+						<div class="date">
+							<input
+								type="number"
+								name="month"
+								id="month"
+								max="12"
+								placeholder="Month"
+							/>
+							<input
+								type="number"
+								name="day"
+								id="day"
+								max="31"
+								placeholder="day"
+							/>
+							<input type="number" name="year" id="year" placeholder="year" />
+						</div>
+						<select name="gender" id="gender">
+							<option value="Choice" selected disabled>Select a Gender</option>
+							<option value="Male">Male</option>
+							<option value="Female">Female</option>
+						</select>
+					</div>
+				</div>
+
+				<h3>Account Details</h3>
+				<div class="account">
+					<div class="labels">
+						<label for="email">Email</label>
+						<label for="reEmal">Re-type Email</label>
+						<label for="password">Password</label>
+						<label for="rePassword">Re-type Password</label>
+						<label for="security_question"> Security Question </label>
+						<label for="security_answer"> Security Answer </label>
+					</div>
+					<div class="inputs">
+						<input
+							type="email"
+							name="email"
+							id="email"
+							placeholder="Email"
+							required
+						/>
+						<input
+							type="email"
+							name="reEmail"
+							id="reEmail"
+							placeholder="Re-type Email"
+							required
+						/>
+						<input
+							type="password"
+							name="password"
+							id="password"
+							placeholder="Password"
+							required
+						/>
+						<input
+							type="password"
+							name="rePassword"
+							id="rePassword"
+							placeholder="Re-type Password"
+							required
+						/>
+						<select name="security_question" id="security_question">
+							<option value="Choice" selected disabled>
+								Select a Security Question
+							</option>
+							<option value="What is your pet name?">
+								What is your pet name?
+							</option>
+							<option value="What is your favourite color?">
+								What is your favorite color?
+							</option>
+							<option value="What is your favourite food?">
+								What is your favorite food?
+							</option>
+						</select>
+						<input
+							type="text"
+							name="security_answer"
+							id="security_answer"
+							placeholder="Security Answer"
+							required
+						/>
+					</div>
+				</div>
+				<h3>Contact Details</h3>
+				<div class="contact">
+					<div class="labels">
+						<label for="address"> Address </label>
+						<label for="city"> City </label>
+						<label for="state"> State </label>
+						<label for="zipCode"> Zip Code </label>
+						<label for="phone"> Phone Number </label>
+						<label for="type"> Phone Type </label>
+					</div>
+					<div class="inputs">
+						<input type="text" name="address" id="address" placeholder="Address" />
+						<input type="text" name="city" id="city" placeholder="City" />
+						<input type="text" name="state" id="state" placeholder="State" />
+						<input
+							type="text"
+							name="zipCode"
+							id="zipCode"
+							placeholder="Zip Code"
+						/>
+						<input type="text" name="phone" id="phone" placeholder="Phone" />
+						<select name="type" id="type">
+							<option value="Choice" selected disabled>
+								Select a Phone Type
+							</option>
+							<option value="Home">Home</option>
+							<option value="Office">Office</option>
+							<option value="Mobile">Mobile</option>
+						</select>
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

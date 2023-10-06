@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Question 4</title>
+</head>
+
+<body>
+    <div class="output"></div>
+    <script>
+        const output = document.querySelector('.output');
+        var firstNumber = prompt("Enter first number", 0);
+        var secondNumber = prompt("Enter second number", 0);
+        var thirdNumber = prompt("Enter third number", 0);
+
+        output.innerHTML = `Highest of ${firstNumber}, ${secondNumber} and ${thirdNumber} is ${Math.max(Number(firstNumber), Number(secondNumber), Number(thirdNumber))}`;
+
+    </script>
+</body>
+
+</html>

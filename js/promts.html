@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prompts</title>
+</head>
+
+<body>
+    <div class="main"></div>
+    <script>
+        const name = window.prompt('What is your name?');
+        console.log(name);
+        const main = document.querySelector('.main');
+        main.style.color = 'red';
+        main.innerHTML = `<h1>${name}</h1>`;    
+    </script>
+</body>
+
+</html>

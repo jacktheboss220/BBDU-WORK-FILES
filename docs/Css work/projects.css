@@ -1,0 +1,39 @@
+.project {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: space-evenly;
+	gap: 1rem;
+	padding: 1rem 0;
+}
+
+.project .box {
+	padding-top: 1rem;
+	background-color: #f1ecec9c;
+	width: 90%;
+	margin: 0 auto;
+	height: 200px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project .box img {
+	object-fit: contain;
+}
+
+.project h1 {
+	width: 90%;
+	margin: 10px auto;
+	border-radius: 20px;
+}
+
+.project p {
+	width: 90%;
+	margin: 1rem auto;
+	height: 100%;
+}

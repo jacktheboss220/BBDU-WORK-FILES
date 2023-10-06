@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Question5</title>
+	</head>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		.container {
+			margin: 1rem auto;
+			padding: 10px;
+			display: flex;
+			justify-content: center;
+		}
+
+		form {
+			border: 2px solid black;
+			padding: 1rem;
+		}
+
+		.grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+		}
+
+		.parts {
+			margin: 1rem 0;
+		}
+
+		.radioBtn {
+			display: flex;
+			flex-direction: column;
+			gap: 0.9rem;
+			margin-top: 1rem;
+		}
+
+		.radioBtn input {
+			margin-right: 0.5rem;
+		}
+
+		input[type='radio'] {
+			width: 1rem;
+			height: 1rem;
+		}
+	</style>
+	<body>
+		<div class="container">
+			<form action="#">
+				<h2>Government Support Programs</h2>
+				<h4>Please indicate if you currently receive the following</h4>
+				<hr />
+				<div class="grid">
+					<div class="parts">
+						<b>Medicare benefits</b>
+						<div class="radioBtn">
+							<span>
+								<input type="radio" name="Medicare benefits" id="" />Yes
+							</span>
+							<span>
+								<input type="radio" name="Medicare benefits" id="" />No
+							</span>
+						</div>
+					</div>
+					<div class="parts">
+						<b>Social Security benefits</b>
+						<div class="radioBtn">
+							<span>
+								<input type="radio" name="Social Security benefits" id="" />Yes
+							</span>
+							<span>
+								<input type="radio" name="Social Security benefits" id="" />No
+							</span>
+						</div>
+					</div>
+					<div class="parts">
+						<b>Military Disability</b>
+						<div class="radioBtn">
+							<span>
+								<input type="radio" name="Military Disability" id="" />Yes
+							</span>
+							<span>
+								<input type="radio" name="Military Disability" id="" />No
+							</span>
+						</div>
+					</div>
+					<div class="parts">
+						<b>Children's Health Insurance Program</b>
+						<div class="radioBtn">
+							<span>
+								<input
+									type="radio"
+									name="Children's Health Insurance Program"
+									id=""
+								/>Yes
+							</span>
+							<span>
+								<input
+									type="radio"
+									name="Children's Health Insurance Program"
+									id=""
+								/>No
+							</span>
+						</div>
+					</div>
+					<div class="parts">
+						<b>Medicaid benefits</b>
+						<div class="radioBtn">
+							<span>
+								<input type="radio" name="Medicaid benefits" id="" />Yes
+							</span>
+							<span>
+								<input type="radio" name="Medicaid benefits" id="" />No
+							</span>
+						</div>
+					</div>
+					<div class="parts">
+						<b>Supplemental Security Income</b>
+						<div class="radioBtn">
+							<span>
+								<input
+									type="radio"
+									name="Supplemental Security Income"
+									id=""
+								/>Yes
+							</span>
+							<span>
+								<input
+									type="radio"
+									name="Supplemental Security Income"
+									id=""
+								/>No
+							</span>
+						</div>
+					</div>
+					<div class="parts">
+						<b>Food stamps</b>
+						<div class="radioBtn">
+							<span> <input type="radio" name="Food stamps" id="" />Yes </span>
+							<span> <input type="radio" name="Food stamps" id="" />No </span>
+						</div>
+					</div>
+					<div class="parts">
+						<b>Social Security Disability Insurance</b>
+						<div class="radioBtn">
+							<span>
+								<input
+									type="radio"
+									name="Social Security Disability Insurance"
+									id=""
+								/>Yes
+							</span>
+							<span>
+								<input
+									type="radio"
+									name="Social Security Disability Insurance"
+									id=""
+								/>No
+							</span>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Question1</title>
+	</head>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.container {
+			width: 80%;
+			margin: 1rem auto;
+			padding: 20px;
+			border: 1px solid black;
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+		h2 {
+			text-align: center;
+			margin: 1rem 0;
+		}
+		label {
+			font-weight: 600;
+			font-size: 1.2rem;
+		}
+		input,
+		textarea,
+		select {
+			/* display: block; */
+			width: auto;
+			padding: 0.5rem;
+			/* margin: 0.5rem auto; */
+			border: 1px solid black;
+			border-radius: 5px;
+		}
+		select option {
+			padding: 0.5rem;
+			font-size: 1.2rem;
+		}
+		.ages {
+			display: flex;
+			flex-direction: column;
+			/* justify-content: space-between; */
+			justify-content: start;
+		}
+		.ages .span {
+			display: inline;
+		}
+		input[type='radio'],
+		input[type='checkbox'] {
+			display: inline;
+			width: auto;
+			margin: 0.5rem 0.5rem 0.5rem 0;
+		}
+		input[type='submit'] {
+			width: 100%;
+			margin: 1rem auto;
+			padding: 0.5rem;
+			border: 1px solid black;
+			border-radius: 5px;
+			background-color: #3a995f;
+			color: #fff;
+			font-size: 1.2rem;
+			cursor: pointer;
+		}
+	</style>
+	<body>
+		<div class="container">
+			<h2>Your Basic info</h2>
+			<form action="#">
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name" /><br />
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" /><br />
+				<label for="password">Password</label>
+				<input type="password" name="password" id="password" /><br />
+				<div class="ages">
+					<label for="age">Age</label><br />
+					<div class="span">
+						<input type="radio" name="16" id="under16" />
+						<label for="under16">Under 16</label>
+					</div>
+					<div class="span">
+						<input type="radio" name="16" id="older16" />
+						<label for="older16">16 or Older</label>
+					</div>
+				</div>
+				<h2>Your profile</h2>
+				<br />
+				<label for="bio">Biography</label><br />
+				<textarea name="bio" id="bio" cols="30" rows="3"></textarea><br />
+				<select name="course" id="course">
+					<option value="B.Tech">B.Tech</option>
+					<option value="M.Tech">M.Tech</option>
+					<option value="MCA">MCA</option>
+					<option value="BCA">BCA</option>
+				</select>
+				<br />
+				<label>Interests:</label><br />
+				<div class="span">
+					<input type="checkbox" name="interest" id="eng" />
+					<label for="eng">Engineering</label><br />
+				</div>
+				<div class="span">
+					<input type="checkbox" name="interest" id="business" />
+					<label for="business">Business</label><br />
+				</div>
+				<div class="span">
+					<input type="checkbox" name="interest" id="law" />
+					<label for="law">Law</label><br />
+				</div>
+				<input type="submit" value="SUBMIT" />
+			</form>
+		</div>
+	</body>
+</html>

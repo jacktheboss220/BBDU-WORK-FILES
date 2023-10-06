@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Question 1</title>
+</head>
+
+<body>
+    <div class="output"></div>
+    <script>
+        var output = document.querySelector('.output');
+        var num = window.prompt("Enter a number", 0);
+        if (num % 2 == 0) {
+            output.innerHTML = `Number ${num} is even`;
+        } else {
+            output.innerHTML = `Number ${num} is odd`;
+        }
+
+    </script>
+</body>
+
+</html>

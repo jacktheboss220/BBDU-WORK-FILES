@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Question 7</title>
+</head>
+
+<body>
+    <div class="output"></div>
+    <script>
+        var char = prompt("Enter a character: ").toLowerCase();
+        if (char.length == 1) {
+            switch (char) {
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                    alert("Character is Vowel");
+                    break;
+                default:
+                    alert("Character is Consonant");
+            }
+        } else {
+            alert("Please enter a single character");
+        }
+    </script>
+</body>
+
+</html>

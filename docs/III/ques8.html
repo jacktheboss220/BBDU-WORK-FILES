@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Question8</title>
+	</head>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		table {
+			margin: 1rem auto;
+			padding: 10px;
+			border: 2px solid black;
+		}
+		td {
+			text-align: center;
+			padding: 10px;
+			border: 1px solid black;
+		}
+	</style>
+	<body>
+		<table border="">
+			<tr>
+				<td rowspan="2">LEFT TOP</td>
+				<td>TOP MIDDLE</td>
+				<td>RIGHT TOP</td>
+			</tr>
+			<tr>
+				<td>CENTER</td>
+				<td rowspan="2">RIGHT BOTTOM</td>
+			</tr>
+			<tr>
+				<td>LEFT BOTTOM</td>
+				<td>LEFT MIDDLE</td>
+			</tr>
+			<tr>
+				<td colspan="4">BOTTOM TABLE ROW</td>
+			</tr>
+		</table>
+	</body>
+</html>
