@@ -13,7 +13,7 @@ const connection = mysql.createConnection({
 // 		name VARCHAR(100),
 // 		age INT,
 // 		PRIMARY KEY (id),
-// 		couse VARCHAR(100)
+// 		course VARCHAR(100)
 // 		)
 // `,
 // 	(err, results, fields) => {
