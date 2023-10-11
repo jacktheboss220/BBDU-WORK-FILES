@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Event Handling</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-family: 'Kosugi Maru', sans-serif;
+			}
+
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				min-height: 100vh;
+			}
+
+			.events {
+				display: flex;
+				flex-direction: column;
+				gap: 10px;
+				justify-content: center;
+				align-items: center;
+				border: 2px solid gray;
+				padding: 10px;
+				margin: 10px;
+				width: 70%;
+				height: 150px;
+			}
+
+			.events h1 {
+				user-select: none;
+				cursor: pointer;
+			}
+
+			.output {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				border: 2px solid gray;
+				padding: 10px;
+				margin: 10px;
+				width: 30%;
+				height: 150px;
+				position: relative;
+			}
+
+			.output h1 {
+				user-select: none;
+				position: sticky;
+				text-transform: uppercase;
+				letter-spacing: 3px;
+			}
+
+			input[type='text']:focus,
+			input[type='submit']:focus,
+			input[type='reset']:focus {
+				outline: none;
+				border: 2px solid red;
+			}
+
+			input[type='text'],
+			input[type='submit'],
+			input[type='reset'] {
+				font-size: 1rem;
+				margin: 10px;
+				padding: 10px;
+				border: 2px solid black;
+				border-radius: 5px;
+				background-color: white;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+
+	<body onload="eventOnLoad()" onscroll="eventScroll()">
+		<div class="events">
+			<div
+				onmouseover="eventMouseHover()"
+				onmouseleave="eventMouseLeave()"
+				onmousedown="eventMouseDown()"
+				onmouseup="eventMouseUp()"
+			>
+				<h1>OVER , CLICK , DOWN , UP</h1>
+			</div>
+
+			<form action="#">
+				<input type="text" placeholder="focusHere" onfocus="eventFocus()" />
+				<input type="submit" value="Submit" onclick="eventSubmit()" />
+				<input type="reset" value="Reset" onclick="eventReset()" />
+			</form>
+		</div>
+		<div class="output">
+			<h1></h1>
+		</div>
+	</body>
+	<script>
+		const output = document.querySelector('.output h1');
+
+		function eventOnLoad() {
+			output.innerHTML = 'Page Loaded';
+		}
+
+		function eventScroll() {
+			output.innerHTML = 'Page Scrolled';
+		}
+
+		function eventMouseHover() {
+			output.innerHTML = 'Mouse Hovered';
+		}
+
+		function eventMouseLeave() {
+			output.innerHTML = 'Mouse Left';
+		}
+
+		function eventMouseDown() {
+			output.innerHTML = 'Mouse Down';
+		}
+
+		function eventMouseUp() {
+			output.innerHTML = 'Mouse Up';
+		}
+
+		function eventFocus() {
+			output.innerHTML = 'Input Focused';
+		}
+
+		function eventSubmit() {
+			output.innerHTML = 'Form Submitted';
+		}
+
+		function eventReset() {
+			output.innerHTML = 'Form Reset';
+		}
+	</script>
+</html>
