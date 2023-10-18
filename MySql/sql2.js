@@ -85,17 +85,48 @@ const connection = mysql.createConnection({
 // 	}
 // );
 
-connection.query(
-	`
-UPDATE students SET name = 'New Name' WHERE id = 1
-`,
-	(err, results, fields) => {
-		if (err) {
-			console.log(err);
-		} else {
-			console.log(results);
-			console.log(fields);
-		}
-		connection.close();
-	}
-);
+// connection.query(
+// 	`
+// UPDATE students SET name = 'New Name' WHERE id = 1
+// `,
+// 	(err, results, fields) => {
+// 		if (err) {
+// 			console.log(err);
+// 		} else {
+// 			console.log(results);
+// 			console.log(fields);
+// 		}
+// 		connection.close();
+// 	}
+// );
+
+// connection.query(
+// 	`
+// 	CREATE table IF NOT EXISTS library_system(
+// 		id INT,
+// 		name VARCHAR(100),
+// 		title VARCHAR(100),
+// 		auther VARCHAR(100),
+// 		price INT,
+// 		aviability BOOLEAN,
+// 		PRIMARY KEY (id)
+// 	)`,
+// 	(err, results, fields) => {
+// 		if (err) {
+// 			console.log(err);
+// 		} else {
+// 			console.log(results);
+// 			console.log(fields);
+// 		}
+// 		connection.close();
+// 	}
+// );
+
+connection.query(`
+	CREATE table IF NOT EXISTS student_enroll(
+		stu_id INT,
+		name VARCHAR(100),
+		dob DATE,
+		programe VARCHAR(100),
+		
+`);
