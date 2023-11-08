@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<title>Question 3</title>
+	</head>
 
-<head>
-    <title>Question 3</title>
-</head>
+	<body>
+		<div class="output"></div>
+		<script>
+			const output = document.querySelector('.output');
+			var number = prompt('Enter first number', 0);
 
-<body>
-    <div class="output"></div>
-    <script>
-        const output = document.querySelector('.output');
-        var number = prompt("Enter first number", 0);
-
-        if (number % 2 == 0)
-            output.innerHTML = `${number} is even`;
-        else
-            output.innerHTML = `${number} is odd`;
-    </script>
-</body>
-
+			if (number % 2 == 0) output.innerHTML = `${number} is even`;
+			else output.innerHTML = `${number} is odd`;
+		</script>
+	</body>
 </html>

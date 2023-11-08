@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<title>Question 4</title>
+	</head>
 
-<head>
-    <title>Question 4</title>
-</head>
+	<body>
+		<div class="output"></div>
+		<script>
+			var principal = parseFloat(prompt('Enter the principal amount:'));
+			var rate = parseFloat(prompt('Enter the rate of interest (in percentage):'));
+			var time = parseFloat(prompt('Enter the time period (in years):'));
 
-<body>
-    <div class="output"></div>
-    <script>
-        var principal = parseFloat(prompt("Enter the principal amount:"));
-        var rate = parseFloat(prompt("Enter the rate of interest (in percentage):"));
-        var time = parseFloat(prompt("Enter the time period (in years):"));
+			rate = rate / 100;
 
-        rate = rate / 100;
+			var Sl = 0;
+			var Cl = principal;
 
-        var Sl = 0;
-        var Cl = principal;
+			var n = 0;
 
-        var n = 0;
+			while (n < time) {
+				Sl = principal * rate * time;
+				Cl = Cl * (1 + rate);
+				n++;
+			}
 
-        while (n < time) {
-            Sl = principal * rate * time;
-            Cl = Cl * (1 + rate);
-            n++;
-        }
-
-        alert("Simple Interest (Sl): " + Sl + "\nCompound Interest (Cl): " + Cl);
-
-    </script>
-</body>
-
+			alert('Simple Interest (Sl): ' + Sl + '\nCompound Interest (Cl): ' + Cl);
+		</script>
+	</body>
 </html>
