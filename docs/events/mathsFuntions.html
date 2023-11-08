@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+
+<body>
+    <div class="output"></div>
+    <script>
+        const output = document.querySelector('.output');
+
+        output.append('Maths Functions');
+        output.innerHTML += '<br>';
+
+        output.innerHTML += 'Math.PI : ' + Math.PI + '<br>';
+        output.innerHTML += 'Math.E : ' + Math.E + '<br>';
+        output.innerHTML += 'Math.round(2.4) : ' + Math.round(2.4) + '<br>';
+        output.innerHTML += 'Math.round(2.5) : ' + Math.round(2.5) + '<br>';
+        output.innerHTML += 'Math.ceil(2.4) : ' + Math.ceil(2.4) + '<br>';
+        output.innerHTML += 'Math.ceil(2.5) : ' + Math.ceil(2.5) + '<br>';
+        output.innerHTML += 'Math.floor(2.4) : ' + Math.floor(2.4) + '<br>';
+        output.innerHTML += 'Math.floor(2.5) : ' + Math.floor(2.5) + '<br>';
+        output.innerHTML += 'Math.sqrt(64) : ' + Math.sqrt(64) + '<br>';
+        output.innerHTML += 'Math.abs(-4.7) : ' + Math.abs(-4.7) + '<br>';
+        output.innerHTML += 'Math.pow(8, 2) : ' + Math.pow(8, 2) + '<br>';
+        output.innerHTML += 'Math.min(0, 150, 30, 20, -8, -200) : ' + Math.min(0, 150, 30, 20, -8, -200) + '<br>';
+        output.innerHTML += 'Math.max(0, 150, 30, 20, -8, -200) : ' + Math.max(0, 150, 30, 20, -8, -200) + '<br>';
+        output.innerHTML += 'Math.random() : ' + Math.random() + '<br>';
+
+
+        output.innerHTML += 'String Functions';
+
+        output.innerHTML += '<br>';
+
+        output.innerHTML += "Length : " + "Hello World".length + '<br>';
+        output.innerHTML += "indexOf('World') : " + "Hello World".indexOf('World') + '<br>';
+        output.innerHTML += "lastIndexOf('l') : " + "Hello World".lastIndexOf('l') + '<br>';
+        output.innerHTML += "slice(0, 5) : " + "Hello World".slice(0, 5) + '<br>';
+        output.innerHTML += "slice(6) : " + "Hello World".slice(6) + '<br>';
+        output.innerHTML += "slice(-5) : " + "Hello World".slice(-5) + '<br>';
+        output.innerHTML += "slice(0, -6) : " + "Hello World".slice(0, -6) + '<br>';
+        output.innerHTML += "substring(0, 5) : " + "Hello World".substring(0, 5) + '<br>';
+        output.innerHTML += "substr(0, 5) : " + "Hello World".substr(0, 5) + '<br>';
+        output.innerHTML += "replace('Hello', 'Hi') : " + "Hello World".replace('Hello', 'Hi') + '<br>';
+        output.innerHTML += "toUpperCase() : " + "Hello World".toUpperCase() + '<br>';
+        output.innerHTML += "toLowerCase() : " + "Hello World".toLowerCase() + '<br>';
+        output.innerHTML += "concat(' ', 'World') : " + "Hello".concat(' ', 'World') + '<br>';
+        output.innerHTML += "trim() : " + "     Hello World     ".trim() + '<br>';
+        output.innerHTML += "charAt(0) : " + "Hello World".charAt(0) + '<br>';
+        output.innerHTML += "charCodeAt(0) : " + "Hello World".charCodeAt(0) + '<br>';
+        output.innerHTML += "split(' ') : " + "Hello World".split(' ') + '<br>';
+        output.innerHTML += "split('') : " + "Hello World".split('') + '<br>';
+        output.innerHTML += "split('o') : " + "Hello World".split('o') + '<br>';
+        output.innerHTML += "split('l') : " + "Hello World".split('l') + '<br>';
+    </script>
+</body>
+
+</html>
