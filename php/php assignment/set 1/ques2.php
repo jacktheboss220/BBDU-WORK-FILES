@@ -1,3 +1,4 @@
+<!-- Write a PHP program to print following patterns using for loop. -->
 <?php
 echo "Pattern 1<br>";
 for ($i = 1; $i <= 5; $i++) {

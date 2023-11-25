@@ -1,3 +1,4 @@
+<!-- Write a PHP program to add two matrices of the same size. -->
 <?php
 $arr1 = array(
     array(1, 2, 3),

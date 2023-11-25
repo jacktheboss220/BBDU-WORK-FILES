@@ -1,3 +1,4 @@
+<!-- Write a PHP program to compute the compound interest. -->
 <?php
 $principle = 10000;
 $rate = 10;

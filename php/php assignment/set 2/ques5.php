@@ -1,3 +1,4 @@
+<!-- implement five predefined functions of PHP. -->
 <?php
 echo "The absolute value of -5 is: " . abs(-5) . "<br>";
 echo "The square root of 25 is: " . sqrt(25) . "<br>";
