@@ -11,3 +11,5 @@ $ar = array(
 foreach ($ar as $key => $value) {
     echo $key . " : " . $value . "<br>";
 }
+?>
+<!--  -->
