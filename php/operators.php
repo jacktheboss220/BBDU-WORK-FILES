@@ -1,0 +1,7 @@
+<?php
+// operators in php
+
+
+
+?>
+<!--  -->
