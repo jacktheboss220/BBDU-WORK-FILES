@@ -1,9 +1,9 @@
-<!-- implement five predefined functions of PHP. -->
+<!-- implement five predefined string functions of PHP. -->
 <?php
-echo "The absolute value of -5 is: " . abs(-5) . "<br>";
-echo "The square root of 25 is: " . sqrt(25) . "<br>";
 echo "The length of the string 'Hello World' is: " . strlen("Hello World") . "<br>";
-echo "The current date is: " . date("d/m/Y") . "<br>";
-echo "The current time is: " . date("h:i:s") . "<br>";
+echo "The number of words in the string 'Hello World' is: " . str_word_count("Hello World") . "<br>";
+echo "The reversed string of 'Hello World' is: " . strrev("Hello World") . "<br>";
+echo "The position of 'World' in the string 'Hello World' is: " . strpos("Hello World", "World") . "<br>";
+echo "The replaced string of 'World' with 'Duniya' in the string 'Hello World' is: " . str_replace("World", "Duniya", "Hello World") . "<br>";
 ?>
 <!--  -->

@@ -1,40 +1,28 @@
 <!-- create a simple calculator using functions call in php -->
 <?php
-function add($a, $b)
-{
+function add($a, $b) {
     return $a + $b;
 }
-function sub($a, $b)
-{
+function sub($a, $b) {
     return $a - $b;
 }
-function mul($a, $b)
-{
+function mul($a, $b) {
     return $a * $b;
 }
-function div($a, $b)
-{
+function div($a, $b) {
     return $a / $b;
 }
-function mod($a, $b)
-{
+function mod($a, $b) {
     return $a % $b;
 }
-function calc($a, $b, $op)
-{
+function calc($a, $b, $op){
     switch ($op) {
-        case '+':
-            return add($a, $b);
-        case '-':
-            return sub($a, $b);
-        case '*':
-            return mul($a, $b);
-        case '/':
-            return div($a, $b);
-        case '%':
-            return mod($a, $b);
-        default:
-            echo "Invalid Operator";
+        case '+': return add($a, $b);
+        case '-': return sub($a, $b);
+        case '*': return mul($a, $b);
+        case '/': return div($a, $b);
+        case '%': return mod($a, $b);
+        default: echo "Invalid Operator";
     }
 }
 echo "Addition of 10 and 20 is " . calc(10, 20, '+') . "<br>";
