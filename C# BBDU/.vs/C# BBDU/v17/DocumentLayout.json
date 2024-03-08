@@ -14,19 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -36,9 +28,9 @@
               "RelativeDocumentMoniker": "C# BBDU\\Program.cs",
               "ToolTip": "D:\\Github\\BBDU-WORK-FILES\\C# BBDU\\C# BBDU\\Program.cs",
               "RelativeToolTip": "C# BBDU\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAODMDwBAAAAAAAAAA",
+              "ViewState": "AQIAAB4AAAAAAADUHK8kwAMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T17:14:24.68Z",
+              "WhenOpened": "2024-03-06T04:02:50.115Z",
               "EditorCaption": ""
             }
           ]
