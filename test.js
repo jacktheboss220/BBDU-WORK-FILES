@@ -1,0 +1,1 @@
+console.log("1243".split("").map(r=>parseInt(r)));
