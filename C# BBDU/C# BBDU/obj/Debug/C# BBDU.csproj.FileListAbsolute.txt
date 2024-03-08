@@ -1,0 +1,7 @@
+C:\Users\dellc\source\repos\C# BBDU\C# BBDU\bin\Debug\C# BBDU.exe.config
+C:\Users\dellc\source\repos\C# BBDU\C# BBDU\bin\Debug\C# BBDU.exe
+C:\Users\dellc\source\repos\C# BBDU\C# BBDU\bin\Debug\C# BBDU.pdb
+C:\Users\dellc\source\repos\C# BBDU\C# BBDU\obj\Debug\C# BBDU.csproj.AssemblyReference.cache
+C:\Users\dellc\source\repos\C# BBDU\C# BBDU\obj\Debug\C# BBDU.csproj.CoreCompileInputs.cache
+C:\Users\dellc\source\repos\C# BBDU\C# BBDU\obj\Debug\C# BBDU.exe
+C:\Users\dellc\source\repos\C# BBDU\C# BBDU\obj\Debug\C# BBDU.pdb
