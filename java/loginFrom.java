@@ -4,7 +4,7 @@ class loginFrom {
     public static void main(String[] args) {
         JFrame jf = new JFrame();
         jf.setSize(300, 200);
-       jf.setLayout(null);
+        jf.setLayout(null);
 
         JLabel labelTitle = new JLabel("Login Form");
         labelTitle.setBounds(100, 0, 80, 30);
