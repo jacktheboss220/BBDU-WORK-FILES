@@ -1,0 +1,7 @@
+D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\bin\Debug\HelloWorld.exe.config
+D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\bin\Debug\HelloWorld.exe
+D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\bin\Debug\HelloWorld.pdb
+D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\obj\Debug\HelloWorld.exe
+D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\obj\Debug\HelloWorld.pdb

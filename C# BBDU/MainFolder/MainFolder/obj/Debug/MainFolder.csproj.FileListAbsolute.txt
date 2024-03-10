@@ -1,0 +1,7 @@
+D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\bin\Debug\MainFolder.exe.config
+D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\bin\Debug\MainFolder.exe
+D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\bin\Debug\MainFolder.pdb
+D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\obj\Debug\MainFolder.csproj.AssemblyReference.cache
+D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\obj\Debug\MainFolder.csproj.CoreCompileInputs.cache
+D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\obj\Debug\MainFolder.exe
+D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\obj\Debug\MainFolder.pdb
