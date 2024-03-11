@@ -35,6 +35,8 @@ public class phoneCheck {
             String phone = JT.getText();
             if (phone.matches("\\d{10}")) {
                 JOptionPane.showMessageDialog(JF, "Valid Phone Number");
+            } else if (phone == "") {
+                JOptionPane.showMessageDialog(JF, "No Phone Number Input");
             } else {
                 JOptionPane.showMessageDialog(JF, "Invalid Phone Number");
             }
