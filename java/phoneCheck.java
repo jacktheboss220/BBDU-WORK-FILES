@@ -23,9 +23,15 @@ public class phoneCheck {
         JButton JB = new JButton("Check");
         JB.setBounds(50, 150, 100, 30);
 
+        JTextArea JTA = new JTextArea();
+        JTA.setBounds(50, 200, 200, 30);
+
+
         JF.add(JL);
         JF.add(JT);
         JF.add(JB);
+        JF.add(JTA);
+
 
         JB.addActionListener(e -> {
             String phone = JT.getText();
@@ -34,6 +40,12 @@ public class phoneCheck {
             } else {
                 JOptionPane.showMessageDialog(JF, "Invalid Phone Number");
             }
+
+            String ASCII = "";
+            for (int i = 0; i < phone.length(); i++) {
+                ASCII += (int) phone.charAt(i) + " ";
+            }
+            JTA.setText(ASCII);
         });
 
         JF.setVisible(true);
