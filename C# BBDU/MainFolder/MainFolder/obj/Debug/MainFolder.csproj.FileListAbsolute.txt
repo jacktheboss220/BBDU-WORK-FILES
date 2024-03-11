@@ -5,3 +5,10 @@ D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\obj\Debu
 D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\obj\Debug\MainFolder.csproj.CoreCompileInputs.cache
 D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\obj\Debug\MainFolder.exe
 D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\obj\Debug\MainFolder.pdb
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\bin\Debug\MainFolder.exe.config
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\bin\Debug\MainFolder.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\bin\Debug\MainFolder.pdb
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\obj\Debug\MainFolder.csproj.AssemblyReference.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\obj\Debug\MainFolder.csproj.CoreCompileInputs.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\obj\Debug\MainFolder.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\MainFolder\obj\Debug\MainFolder.pdb
