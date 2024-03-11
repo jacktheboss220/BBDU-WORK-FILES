@@ -26,12 +26,10 @@ public class phoneCheck {
         JTextArea JTA = new JTextArea();
         JTA.setBounds(50, 200, 200, 30);
 
-
         JF.add(JL);
         JF.add(JT);
         JF.add(JB);
         JF.add(JTA);
-
 
         JB.addActionListener(e -> {
             String phone = JT.getText();
