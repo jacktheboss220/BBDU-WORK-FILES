@@ -5,3 +5,10 @@ D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\obj\Debu
 D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
 D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\obj\Debug\HelloWorld.exe
 D:\OneDrive - jackthefire\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\obj\Debug\HelloWorld.pdb
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\bin\Debug\HelloWorld.exe.config
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\bin\Debug\HelloWorld.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\bin\Debug\HelloWorld.pdb
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\obj\Debug\HelloWorld.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\HelloWorld\obj\Debug\HelloWorld.pdb

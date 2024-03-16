@@ -31,6 +31,12 @@ public class phoneCheck {
         JF.add(JB);
         JF.add(JTA);
 
+        JT.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent e) {
+                JT.setText("Format: 1234567890");
+            }
+        });
+
         JB.addActionListener(e -> {
             String phone = JT.getText();
             if (phone.matches("\\d{10}")) {

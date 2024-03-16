@@ -1,0 +1,7 @@
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\array_indexing\bin\Debug\array_indexing.exe.config
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\array_indexing\bin\Debug\array_indexing.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\array_indexing\bin\Debug\array_indexing.pdb
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\array_indexing\obj\Debug\array_indexing.csproj.AssemblyReference.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\array_indexing\obj\Debug\array_indexing.csproj.CoreCompileInputs.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\array_indexing\obj\Debug\array_indexing.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\array_indexing\obj\Debug\array_indexing.pdb

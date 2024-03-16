@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{3327F624-51E3-4471-8406-A30B43691645}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "array_indexing", "array_indexing\array_indexing.csproj", "{3DED86EE-B016-474A-BCF1-A8943366D230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "plusOverLoading", "plusOverLoading\plusOverLoading.csproj", "{6FFB986A-1BC1-4DB9-9E16-D1C6BC580899}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{3327F624-51E3-4471-8406-A30B43691645}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3327F624-51E3-4471-8406-A30B43691645}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3327F624-51E3-4471-8406-A30B43691645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DED86EE-B016-474A-BCF1-A8943366D230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DED86EE-B016-474A-BCF1-A8943366D230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DED86EE-B016-474A-BCF1-A8943366D230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DED86EE-B016-474A-BCF1-A8943366D230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FFB986A-1BC1-4DB9-9E16-D1C6BC580899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FFB986A-1BC1-4DB9-9E16-D1C6BC580899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FFB986A-1BC1-4DB9-9E16-D1C6BC580899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FFB986A-1BC1-4DB9-9E16-D1C6BC580899}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
