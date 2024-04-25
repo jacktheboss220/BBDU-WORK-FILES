@@ -1,0 +1,10 @@
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsForms1\obj\Debug\WindowsForms1.csproj.AssemblyReference.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsForms1\obj\Debug\WindowsForms1.Form1.resources
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsForms1\obj\Debug\WindowsForms1.Properties.Resources.resources
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsForms1\obj\Debug\WindowsForms1.csproj.GenerateResource.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsForms1\obj\Debug\WindowsForms1.csproj.CoreCompileInputs.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsForms1\bin\Debug\WindowsForms1.exe.config
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsForms1\bin\Debug\WindowsForms1.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsForms1\bin\Debug\WindowsForms1.pdb
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsForms1\obj\Debug\WindowsForms1.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsForms1\obj\Debug\WindowsForms1.pdb

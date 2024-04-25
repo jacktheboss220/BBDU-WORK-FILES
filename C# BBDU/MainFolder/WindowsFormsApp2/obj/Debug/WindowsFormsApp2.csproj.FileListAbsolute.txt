@@ -1,0 +1,10 @@
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb

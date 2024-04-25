@@ -1,0 +1,10 @@
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssambly\obj\Debug\useAssambly.csproj.AssemblyReference.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssambly\obj\Debug\useAssambly.csproj.CoreCompileInputs.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssambly\bin\Debug\useAssambly.exe.config
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssambly\bin\Debug\useAssambly.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssambly\bin\Debug\useAssambly.pdb
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssambly\bin\Debug\assamblyPrograme.dll
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssambly\bin\Debug\assamblyPrograme.pdb
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssambly\obj\Debug\useAssam.2F456B7D.Up2Date
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssambly\obj\Debug\useAssambly.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssambly\obj\Debug\useAssambly.pdb

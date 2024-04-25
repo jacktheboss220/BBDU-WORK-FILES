@@ -1,0 +1,6 @@
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\SubSum\bin\Debug\SubSum.dll
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\SubSum\bin\Debug\SubSum.pdb
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\SubSum\obj\Debug\SubSum.csproj.AssemblyReference.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\SubSum\obj\Debug\SubSum.csproj.CoreCompileInputs.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\SubSum\obj\Debug\SubSum.dll
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\SubSum\obj\Debug\SubSum.pdb

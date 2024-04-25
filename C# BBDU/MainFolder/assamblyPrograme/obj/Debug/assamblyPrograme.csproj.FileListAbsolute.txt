@@ -1,0 +1,6 @@
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\assamblyPrograme\bin\Debug\assamblyPrograme.dll
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\assamblyPrograme\bin\Debug\assamblyPrograme.pdb
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\assamblyPrograme\obj\Debug\assamblyPrograme.csproj.AssemblyReference.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\assamblyPrograme\obj\Debug\assamblyPrograme.csproj.CoreCompileInputs.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\assamblyPrograme\obj\Debug\assamblyPrograme.dll
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\assamblyPrograme\obj\Debug\assamblyPrograme.pdb

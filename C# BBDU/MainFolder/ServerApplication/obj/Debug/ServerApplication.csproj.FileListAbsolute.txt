@@ -1,0 +1,7 @@
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\ServerApplication\bin\Debug\ServerApplication.exe.config
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\ServerApplication\bin\Debug\ServerApplication.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\ServerApplication\bin\Debug\ServerApplication.pdb
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\ServerApplication\obj\Debug\ServerApplication.csproj.AssemblyReference.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\ServerApplication\obj\Debug\ServerApplication.csproj.CoreCompileInputs.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\ServerApplication\obj\Debug\ServerApplication.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\ServerApplication\obj\Debug\ServerApplication.pdb

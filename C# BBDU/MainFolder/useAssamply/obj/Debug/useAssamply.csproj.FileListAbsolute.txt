@@ -1,0 +1,10 @@
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssamply\bin\Debug\useAssamply.exe.config
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssamply\bin\Debug\useAssamply.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssamply\bin\Debug\useAssamply.pdb
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssamply\bin\Debug\SubSum.dll
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssamply\bin\Debug\SubSum.pdb
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssamply\obj\Debug\useAssamply.csproj.AssemblyReference.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssamply\obj\Debug\useAssamply.csproj.CoreCompileInputs.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssamply\obj\Debug\useAssam.2F45AF33.Up2Date
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssamply\obj\Debug\useAssamply.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\useAssamply\obj\Debug\useAssamply.pdb
