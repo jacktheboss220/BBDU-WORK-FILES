@@ -1,0 +1,10 @@
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\xmlPro\bin\Debug\xmlPro.exe.config
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\xmlPro\bin\Debug\xmlPro.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\xmlPro\bin\Debug\xmlPro.pdb
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\xmlPro\obj\Debug\xmlPro.csproj.AssemblyReference.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\xmlPro\obj\Debug\xmlPro.Form1.resources
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\xmlPro\obj\Debug\xmlPro.Properties.Resources.resources
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\xmlPro\obj\Debug\xmlPro.csproj.GenerateResource.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\xmlPro\obj\Debug\xmlPro.csproj.CoreCompileInputs.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\xmlPro\obj\Debug\xmlPro.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\xmlPro\obj\Debug\xmlPro.pdb

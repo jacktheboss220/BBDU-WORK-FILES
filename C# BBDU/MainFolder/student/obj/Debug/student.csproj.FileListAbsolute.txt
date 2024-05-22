@@ -1,0 +1,7 @@
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\student\bin\Debug\student.exe.config
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\student\bin\Debug\student.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\student\bin\Debug\student.pdb
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\student\obj\Debug\student.csproj.AssemblyReference.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\student\obj\Debug\student.csproj.CoreCompileInputs.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\student\obj\Debug\student.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\student\obj\Debug\student.pdb

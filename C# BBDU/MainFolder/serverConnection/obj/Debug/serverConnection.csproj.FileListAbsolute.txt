@@ -1,0 +1,10 @@
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\serverConnection\bin\Debug\serverConnection.exe.config
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\serverConnection\bin\Debug\serverConnection.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\serverConnection\bin\Debug\serverConnection.pdb
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\serverConnection\obj\Debug\serverConnection.csproj.AssemblyReference.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\serverConnection\obj\Debug\serverConnection.Form1.resources
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\serverConnection\obj\Debug\serverConnection.Properties.Resources.resources
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\serverConnection\obj\Debug\serverConnection.csproj.GenerateResource.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\serverConnection\obj\Debug\serverConnection.csproj.CoreCompileInputs.cache
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\serverConnection\obj\Debug\serverConnection.exe
+D:\Github\BBDU-WORK-FILES\C# BBDU\MainFolder\serverConnection\obj\Debug\serverConnection.pdb

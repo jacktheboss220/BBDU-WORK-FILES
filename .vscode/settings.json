@@ -2,5 +2,11 @@
 	"python.testing.unittestArgs": ["-v", "-s", "./python", "-p", "*test.py"],
 	"python.testing.pytestEnabled": false,
 	"python.testing.unittestEnabled": true,
-	"dotnet.preferCSharpExtension": true
+	"dotnet.preferCSharpExtension": true,
+	"java.project.sourcePaths": [
+		"java"
+	],
+	"java.project.referencedLibraries": [
+		"d:\\mysql-connector-java-5.1.46\\mysql-connector-java-5.1.46-bin.jar"
+	]
 }
