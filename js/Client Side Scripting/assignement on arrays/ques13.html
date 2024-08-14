@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Question 13 - Assignment On Arrays</title>
+</head>
+<body>
+    <input type="text" id="inputText">
+    <button id="addButton">Add</button>
+    <button id="displayButton">Display</button>
+    <p id="output"></p>
+    <script>
+        /**
+         * 13. Write a JavaScript program to add items to a blank array and display them.
+         * Sample Screen :
+         * Output
+         * Element O = 23
+         * Element 1 = 12
+         * Element 2 - 25
+         */
+        let result = [];
+        function addItems(input) {
+            result.push(input);
+        }
+        function displayItems() {
+            result.forEach((item, index) => {
+                const p = document.createElement('p');
+                p.textContent = `Element ${index} = ${item}`;
+                output.appendChild(p);
+            });
+        }
+        const inputText = document.getElementById('inputText');
+        const addButton = document.getElementById('addButton');
+        const displayButton = document.getElementById('displayButton');
+        const output = document.getElementById('output');
+        addButton.addEventListener('click', () => {
+            addItems(inputText.value);
+        });
+        displayButton.addEventListener('click', () => {
+            output.innerHTML = '';
+            displayItems();
+        });
+    </script>
+</body>
+</html>

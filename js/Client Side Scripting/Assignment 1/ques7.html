@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Question 7 - Assignment 1</title>
+</head>
+<body>
+    <script>
+        /**
+         * 7. Write a JavaScript program which compute, the average marks of the following students Then, this average is used to determine the corresponding grade.
+         * The grades are computed as follows :
+         * Range|Grade
+         * <60|F
+         * <70|D
+         * <80|C
+         * <90|B
+         * <100|A
+         */
+        function averageGrade(students) {
+            let total = students.reduce((acc, student) => acc + student.marks,
+                0);
+            let average = total / students.length;
+            if (average < 60) {
+                return 'F';
+            } else if (average < 70) {
+                return 'D';
+            } else if (average < 80) {
+                return 'C';
+            } else if (average < 90) {
+                return 'B';
+            } else {
+                return 'A';
+            }
+        }
+        let students = [{
+                name: 'John',
+                marks: 80
+            },
+            {
+                name: 'Jane',
+                marks: 90
+            },
+            {
+                name: 'Alice',
+                marks: 70
+            }
+        ];
+        document.write(averageGrade(students) + "<br>");
+    </script>
+</body>
+</html>

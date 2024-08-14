@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Question 18 - Assignment On Arrays</title>
+</head>
+<body>
+    <script>
+        /**
+         * 18. Write a JavaScript program to perform a binary search.
+         * Note : A binary search or half-interval search algorithm finds the position of a specified input value within an array sorted by key value.
+         * Sample array :
+         * var items = [1, 2, 3, 4, 5, 7, 8, 9];
+         * Expected Output :
+         * console.log(binary_Search(items, 1)); //0
+         * console.log(binary_Search(items, 5)); //4
+         */
+        function binarySearch(input, target) {
+            let start = 0;
+            let end = input.length - 1;
+            while (start <= end) {
+                let mid = Math.floor((start + end) / 2);
+                if (input[mid] === target) {
+                    return mid;
+                } else if (input[mid] < target) {
+                    start = mid + 1;
+                } else {
+                    end = mid - 1;
+                }
+            }
+            return -1;
+        }
+        let items = [1, 2, 3, 4, 5, 7, 8, 9];
+        document.write(binarySearch(items, 1) + "<br>");
+        document.write(binarySearch(items, 5) + "<br>");
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Question 25 - Assignment On Arrays</title>
+</head>
+<body>
+    <script>
+        /* 25. Write a JavaScript function to sort the following array of
+        objects by title value.
+        Sample object:
+        var library = [
+            { author: 'Bill Gates', title: 'The Road Ahead', libraryID: 1254 },
+            { author: 'Steve Jobs', title: 'Walter Isaacson', libraryID: 4264 },
+            { author: 'Suzanne Collins', title: 'Mockingjay: The Final Book of The HungerGames', libraryID: 3245 }
+        ];
+        Expected result:
+        [
+          { author: 'Suzanne Collins ', title: 'Mockingjay: The Final Book of The HungerGames', libraryID: 3245 },
+          { author: 'Steve Jobs ', title: ' Walter Isaacson', libraryID: 4264 },
+          { author: 'Bill Gates', title: 'The Road Ahead', libraryID: 1254 }
+        ]
+        */
+        function sortObjects(input) {
+            return input.sort((a, b) => a.title.localeCompare(b.title));
+        }
+        var library = [{
+                author: 'Bill Gates',
+                title: 'The Road Ahead',
+                libraryID: 1254
+            },
+            {
+                author: 'Steve Jobs',
+                title: 'Walter Isaacson',
+                libraryID: 4264
+            },
+            {
+                author: 'Suzanne Collins',
+                title: 'Mockingjay: The Final Book of The HungerGames',
+                libraryID: 3245
+            }
+        ];
+        document.write(JSON.stringify(sortObjects(library)) + "<br>");
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Question 5 - Assignment On Arrays</title>
+</head>
+<body>
+    <script>
+        /**
+         * 5. Write a simple JavaScript program to join all elements of the following array into a string.
+         * Sample array : myColor = ["Red", "Green", "White", "Black"];
+         * Expected Output :
+         * "Red,Green,White,Black"
+         * "Red,Green,White,Black"
+         * "Red+Green+White+Black"
+         */
+        function joinArray(input, separator) {
+            return input.join(separator);
+        }
+        let myColor = ["Red", "Green", "White", "Black"];
+
+        document.write(joinArray(myColor, ",") + "<br>");
+        document.write(joinArray(myColor, ",") + "<br>");
+        document.write(joinArray(myColor, "+") + "<br>");
+    </script>
+</body>
+</html>

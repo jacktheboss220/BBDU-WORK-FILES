@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Question 9 - Assignment On Arrays</title>
+</head>
+<body>
+    <script>
+        /**
+         * 9. Write a JavaScript program that accepts a string as input and swaps the case of each character. 
+         * For example if you input 'The Quick Brown Fox' the output should be 'tHE qUICK bROWN fOX'.
+         */
+        function swapCase(input) {
+            return input.split('').map(char => {
+                if (char === char.toUpperCase()) {
+                    return char.toLowerCase();
+                } else {
+                    return char.toUpperCase();
+                }
+            }).join('');
+        }
+        let input = 'The Quick Brown Fox';
+        document.write(swapCase(input) + "<br>");
+    </script>
+</body>
+</html>

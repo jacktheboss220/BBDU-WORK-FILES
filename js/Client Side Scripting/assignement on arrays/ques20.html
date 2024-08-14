@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Question 20 - Assignment On Arrays</title>
+</head>
+<body>
+    <script>
+        /**
+         * 20. Write a JavaScript program to find duplicate values in a JavaScript array.
+         */
+        function findDuplicates(input) {
+            let result = [];
+            input.forEach((item, index) => {
+                if (input.indexOf(item) !== index && !result.includes(
+                        item)) {
+                    result.push(item);
+                }
+            });
+            return result;
+        }
+        document.write(findDuplicates([1, 2, 3, 4, 5, 1, 2, 3, 4, 5]) + "<br>");
+    </script>
+</body>
+</html>

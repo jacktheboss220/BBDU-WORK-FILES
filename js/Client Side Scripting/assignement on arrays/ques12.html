@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Question 12 - Assignment On Arrays</title>
+</head>
+<body>
+    <script>
+        /**
+         * 12. Write a JavaScript program to compute the sum and product of an array of integers.
+         */
+        function sumAndProduct(input) {
+            return {
+                sum: input.reduce((acc, curr) => acc + curr, 0),
+                product: input.reduce((acc, curr) => acc * curr, 1)
+            };
+        }
+        document.write(JSON.stringify(sumAndProduct([1, 2, 3, 4, 5])) + "<br>");
+    </script>
+</body>
+</html>

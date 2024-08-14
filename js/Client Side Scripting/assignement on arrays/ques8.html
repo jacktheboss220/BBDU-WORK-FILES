@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Question 8 - Assignment On Arrays</title>
+</head>
+<body>
+    <script>
+        /**
+         * 8. Write a JavaScript program to find the most frequent item in an array.
+         * Sample array : var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+         * Sample Output : a ( 5 times )
+         */
+        function mostFrequent(input) {
+            let result = {};
+            let max = 0;
+            let maxItem;
+            input.forEach(item => {
+                if (result[item]) {
+                    result[item]++;
+                } else {
+                    result[item] = 1;
+                }
+                if (result[item] > max) {
+                    max = result[item];
+                    maxItem = item;
+                }
+            });
+            return `${maxItem} ( ${max} times )`;
+        }
+        let arr2 = [3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+
+        document.write(mostFrequent(arr2) + "<br>");
+    </script>
+</body>
+</html>

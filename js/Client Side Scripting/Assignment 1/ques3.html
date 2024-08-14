@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Question 3 - Assignment 1</title>
+</head>
+<body>
+    <script>
+        /**
+         * 3. Write a JavaScript program to determine whether a given year is a leap year.
+         */
+        function isLeapYear(year) {
+            return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+        }
+        document.write(isLeapYear(2020) + "<br>");
+        document.write(isLeapYear(2021) + "<br>");
+    </script>
+</body>
+</html>

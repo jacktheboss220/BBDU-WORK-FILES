@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Question 28 - Assignment On Arrays</title>
+</head>
+<body>
+    <script>
+        /**
+         * 28. Write a JavaScript function to find the longest common starting substring in a set of strings.
+         * Sample array :
+         * console.log(longest_common_starting_substring(['go', 'google']));
+         * Expected result : "go"
+         */
+        function longestCommonStartingSubstring(input) {
+            let result = '';
+            let first = input[0];
+            for (let i = 0; i < first.length; i++) {
+                for (let j = 1; j < input.length; j++) {
+                    if (input[j][i] !== first[i]) {
+                        return result;
+                    }
+                }
+                result += first[i];
+            }
+            return result;
+        }
+        document.write(longestCommonStartingSubstring(['go', 'google']) +
+            "<br>");
+    </script>
+</body>
+</html>
