@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cookies</title>
+	</head>
+	<body>
+		<form action="#" name="form1">
+			<label for="name">Name:</label>
+			<input type="text" name="name" id="name" /> <br />
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" /><br />
+			<label for="phone">Phone:</label>
+			<input type="tel" name="phone" id="phone" /><br />
+			<button type="button" onclick="createCookkis()">Create Cookies</button>
+		</form>
+		<label for="selt">Select your options: </label>
+		<select name="selt" id="selt">
+			<option value="btech">btech</option>
+		</select>
+		<script>
+			function createCookkis() {
+				with (document.form1) {
+					document.cookie = "name=" + name.value;
+					document.cookie = "email=" + email.value;
+					document.cookie = "phone=" + phone.value;
+					console.log(document.cookie);
+					alert("Cookies created successfully");
+				}
+			}
+		</script>
+	</body>
+</html>
