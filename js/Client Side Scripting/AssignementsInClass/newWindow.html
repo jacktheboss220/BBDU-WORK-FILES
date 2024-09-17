@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Browser Window</title>
+	</head>
+	<body>
+		<button type="button" onclick="handleWindow()">Click Me</button>
+		<script>
+			function handleWindow() {
+				const window1 = window.open("", "OrderList", "width=500, height=500 left=0 top=10");
+				const window2 = window.open("", "UnorderList", "width=500, height=500 left=510 top=10");
+
+				const ol = `<ol>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ol>`;
+
+				const ul = `<ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>`;
+
+				window1.document.write(ol);
+				window2.document.write(ul);
+			}
+		</script>
+	</body>
+</html>
