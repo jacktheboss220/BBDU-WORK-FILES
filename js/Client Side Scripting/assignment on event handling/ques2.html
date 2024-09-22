@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-	</head>
-	<body>
-		<select name="dropdown" id="dp">
-			<option value="1">1</option>
-			<option value="2">2</option>
-			<option value="3">3</option>
-		</select>
-		<button id="btn">Disable Options</button>
-		<script>
-			/**
-			 * 2. Write a JavaScript program to create a dropdown menu that shows and hides its options when clicked.
-			 */
-			let dp = document.getElementById("dp");
-			let btn = document.getElementById("btn");
-			let options = dp.options;
-			let isHidden = false;
-			btn.addEventListener("click", () => {
-				if (isHidden) {
-					for (let i = 0; i < options.length; i++) {
-						options[i].style.display = "block";
-					}
-					isHidden = false;
-				} else {
-					for (let i = 0; i < options.length; i++) {
-						options[i].style.display = "none";
-					}
-					isHidden = true;
-				}
-			});
-		</script>
-	</body>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <select name="dropdown" id="dp">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+    </select>
+    <button id="btn">Disable Options</button>
+    <script>
+        /**
+         * 2. Write a JavaScript program to create a dropdown menu that shows and hides its options when clicked.
+         */
+        let dp = document.getElementById("dp");
+        let btn = document.getElementById("btn");
+        let options = dp.options;
+        let isHidden = false;
+        btn.addEventListener("click", () => {
+            if (isHidden) {
+                for (let i = 0; i < options.length; i++) {
+                    options[i].style.display = "block";
+                }
+                isHidden = false;
+            } else {
+                for (let i = 0; i < options.length; i++) {
+                    options[i].style.display = "none";
+                }
+                isHidden = true;
+            }
+        });
+    </script>
+</body>
 </html>

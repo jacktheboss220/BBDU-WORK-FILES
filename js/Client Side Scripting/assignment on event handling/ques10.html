@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Double Click Event Example</title>
+    <style>
+        h1 {
+            padding: 20px;
+            background-color: #f3f3f3;
+            border-radius: 5px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: background-color 0.3s;
+            user-select: none;
+        }
+        h1:hover {
+            background-color: #e9e9e9;
+        }
+    </style>
+</head>
+<body>
+    <h1 ondblclick="handleDoubleClick()">Double Click Me</h1>
+    <script>
+        function handleDoubleClick() {
+            alert("Element double clicked!");
+        }
+    </script>
+</body>
+</html>
