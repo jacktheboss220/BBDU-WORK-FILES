@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop List</title>
+    <style>
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 auto;
+            max-width: 300px;
+        }
+        li {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 8px 0;
+            padding: 12px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            font-family: 'Arial', sans-serif;
+            font-size: 18px;
+            color: #333;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: grab;
+            transition: background-color 0.2s, transform 0.2s;
+        }
+        li:hover {
+            background-color: #f0f8ff;
+            transform: scale(1.03);
+        }
+        li.dragging {
+            opacity: 0.5;
+            background-color: #cce7ff;
+            transform: scale(1.02);
+        }
+        li:not(.dragging) {
+            transition: box-shadow 0.2s ease;
+        }
+        li.dragging~li {
+            transition: box-shadow 0.3s ease;
+        }
+        ul::before {
+            content: "Reorder List Items";
+            display: block;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px;
+            color: #4a90e2;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Drag and Drop List</h1>
+    <ul id="draggable-list">
+        <li draggable="true">Item 1</li>
+        <li draggable="true">Item 2</li>
+        <li draggable="true">Item 3</li>
+        <li draggable="true">Item 4</li>
+        <li draggable="true">Item 5</li>
+    </ul>
+    <script>
+        /**
+        Write a JavaScript program to implement drag-and-drop functionality to allow users to reorder items in a list.
+        */
+        const list = document.getElementById('draggable-list');
+        let draggedItem = null;
+        list.querySelectorAll('li').forEach(item => {
+            item.addEventListener('dragstart', function() {
+                draggedItem = item;
+                setTimeout(() => {
+                    item.classList.add('dragging');
+                    item.style.display = 'none';
+                }, 0);
+            });
+            item.addEventListener('dragend', function() {
+                setTimeout(() => {
+                    draggedItem.style.display = 'block';
+                    draggedItem.classList.remove(
+                        'dragging');
+                    draggedItem = null;
+                }, 0);
+            });
+            item.addEventListener('dragover', function(e) {
+                e.preventDefault();
+                const afterElement = getDragAfterElement(list, e
+                    .clientY);
+                if (afterElement == null) {
+                    list.appendChild(draggedItem);
+                } else {
+                    list.insertBefore(draggedItem,
+                        afterElement);
+                }
+            });
+        });
+        // Function to determine the closest element after the current dragging position
+        function getDragAfterElement(container, y) {
+            const draggableElements = [...container.querySelectorAll(
+                'li:not(.dragging)')];
+            return draggableElements.reduce((closest, child) => {
+                const box = child.getBoundingClientRect();
+                const offset = y - box.top - box.height / 2;
+                if (offset < 0 && offset > closest.offset) {
+                    return {
+                        offset: offset,
+                        element: child
+                    };
+                } else {
+                    return closest;
+                }
+            }, {
+                offset: Number.NEGATIVE_INFINITY
+            }).element;
+        }
+    </script>
+</body>
+</html>

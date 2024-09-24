@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        button {
+            display: block;
+            margin: 0 auto;
+        }
+        #prev {
+            margin-bottom: 10px;
+        }
+        #next {
+            margin-top: 10px;
+        }
+        button {
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://picsum.photos/500" alt="image" id="image" width="500" />
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+    <script>
+        /**
+            5. Write a JavaScript program to create a slideshow that changes the displayed image when a next or previous button is clicked.
+        */
+        let images = [
+            'https://picsum.photos/500?random=1',
+            'https://picsum.photos/500?random=2',
+            'https://picsum.photos/500?random=3',
+            'https://picsum.photos/500?random=4',
+            'https://picsum.photos/500?random=5',
+            'https://picsum.photos/500?random=6',
+            'https://picsum.photos/500?random=7',
+            'https://picsum.photos/500?random=8',
+            'https://picsum.photos/500?random=9',
+            'https://picsum.photos/500?random=10'
+        ];
+        let image = document.getElementById('image');
+        let prev = document.getElementById('prev');
+        let next = document.getElementById('next');
+        let i = 0;
+        image.src = images[i];
+        prev.addEventListener('click', function() {
+            i--;
+            if (i < 0) {
+                i = images.length - 1;
+            }
+            image.src = images[i];
+        });
+        next.addEventListener('click', function() {
+            i++;
+            if (i >= images.length) {
+                i = 0;
+            }
+            image.src = images[i];
+        });
+    </script>
+</body>
+</html>

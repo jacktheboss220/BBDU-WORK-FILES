@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Toggle Switch</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .toggle {
+            width: 100px;
+            height: 50px;
+            background-color: gray;
+            border-radius: 25px;
+            position: relative;
+            cursor: pointer;
+        }
+        .toggle:before {
+            content: "";
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border-radius: 50%;
+            top: 5px;
+            left: 5px;
+            transition: transform 0.3s;
+        }
+        .toggle.on {
+            background-color: green;
+        }
+        .toggle.on:before {
+            transform: translateX(50px);
+        }
+        .dark-mode {
+            background-color: black;
+            color: white;
+            transition: background-color 1s;
+        }
+        .light-mode {
+            background-color: white;
+            color: black;
+            transition: background-color 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="toggle" onclick="toggleSwitch()"></div>
+    <script>
+        let body = document.body;
+        let toggle = document.querySelector('.toggle');
+        let darkMode = false;
+        function toggleSwitch() {
+            darkMode = !darkMode;
+            if (darkMode) {
+                body.classList.add('dark-mode');
+                body.classList.remove('light-mode');
+                toggle.classList.add('on');
+            } else {
+                body.classList.add('light-mode');
+                body.classList.remove('dark-mode');
+                toggle.classList.remove('on');
+            }
+        }
+    </script>
+</body>
+</html>
