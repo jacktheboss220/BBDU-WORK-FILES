@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>List to Another Window</title>
+		<style>
+			body {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.drop {
+				padding: 10px;
+				font-size: 16px;
+				border-radius: 5px;
+				border: 1px solid #ccc;
+				margin: 10px;
+			}
+
+			button {
+				padding: 10px;
+				font-size: 16px;
+				border-radius: 5px;
+				border: 1px solid #ccc;
+				margin: 10px;
+				cursor: pointer;
+			}
+
+			select {
+				width: 200px;
+				padding: 10px;
+				font-size: 16px;
+				border-radius: 5px;
+				border: 1px solid #ccc;
+				margin: 10px;
+			}
+
+			.click {
+				background-color: #007bff;
+				color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<select name="items" id="" class="drop">
+			<option value="1">HTML</option>
+			<option value="2">CSS</option>
+			<option value="3">JavaScript</option>
+			<option value="4">PHP</option>
+			<option value="5">Python</option>
+		</select>
+		<button type="button" onclick="handleWindow()" class="click">Click Me</button>
+		<button type="button" onclick="countItems()">Count Items</button>
+		<script>
+			const select = document.querySelector("select");
+
+			function handleWindow() {
+				const selected = select.options[select.selectedIndex].text;
+				select.remove(select.selectedIndex);
+				const newWindow = window.open("", "newWindow", "width=200,height=200");
+				newWindow.document.write(`<h1>${selected}</h1>`);
+			}
+
+			function countItems() {
+				const length = select.options.length;
+				const windowCount = window.open("", "newWindow", "width=200,height=200");
+				windowCount.document.write(`<h1>Items: ${length}</h1>`);
+			}
+		</script>
+	</body>
+</html>
