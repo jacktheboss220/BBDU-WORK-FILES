@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calulator</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			h1 {
+				text-align: center;
+			}
+			.caculator {
+				display: grid;
+				grid-template-columns: repeat(4, 1fr);
+				grid-template-rows: repeat(5, 1fr);
+				grid-template-areas:
+					"screen screen screen screen"
+					"clear del percent divide"
+					"seven eight nine multiply"
+					"four five six minus"
+					"one two three plus"
+					"zero zero dot equal";
+				gap: 0.6rem;
+			}
+			#screen {
+				grid-area: screen;
+			}
+			#clear {
+				grid-area: clear;
+			}
+			#del {
+				grid-area: del;
+			}
+			#percent {
+				grid-area: percent;
+			}
+			#divide {
+				grid-area: divide;
+			}
+			#seven {
+				grid-area: seven;
+			}
+			#eight {
+				grid-area: eight;
+			}
+			#nine {
+				grid-area: nine;
+			}
+			#multiply {
+				grid-area: multiply;
+			}
+			#four {
+				grid-area: four;
+			}
+			#five {
+				grid-area: five;
+			}
+			#six {
+				grid-area: six;
+			}
+			#minus {
+				grid-area: minus;
+			}
+			#one {
+				grid-area: one;
+			}
+			#two {
+				grid-area: two;
+			}
+			#three {
+				grid-area: three;
+			}
+			#plus {
+				grid-area: plus;
+			}
+			#zero {
+				grid-area: zero;
+			}
+			#dot {
+				grid-area: dot;
+			}
+			#equal {
+				grid-area: equal;
+			}
+
+			button {
+				font-size: 1.5rem;
+				padding: 1rem;
+				cursor: pointer;
+				border-radius: 5px;
+			}
+
+			#screen {
+				padding: 1rem;
+				font-size: 2rem;
+				text-align: right;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main">
+			<h1>Calculator</h1>
+			<div class="caculator">
+				<input type="text" id="screen" disabled placeholder="0" />
+				<button onclick="clearScreen()" id="clear">C</button>
+				<button onclick="deleteChar()" id="del">DEL</button>
+				<button onclick="appendChar('%') " id="percent">%</button>
+				<button onclick="appendChar('/')" id="divide">/</button>
+				<button onclick="appendChar('7')" id="seven">7</button>
+				<button onclick="appendChar('8')" id="eight">8</button>
+				<button onclick="appendChar('9')" id="nine">9</button>
+				<button onclick="appendChar('*')" id="multiply">*</button>
+				<button onclick="appendChar('4')" id="four">4</button>
+				<button onclick="appendChar('5')" id="five">5</button>
+				<button onclick="appendChar('6')" id="six">6</button>
+				<button onclick="appendChar('-')" id="minus">-</button>
+				<button onclick="appendChar('1')" id="one">1</button>
+				<button onclick="appendChar('2')" id="two">2</button>
+				<button onclick="appendChar('3')" id="three">3</button>
+				<button onclick="appendChar('+')" id="plus">+</button>
+				<button onclick="appendChar('0')" id="zero">0</button>
+				<button onclick="appendChar('.')" id="dot">.</button>
+				<button onclick="calculate()" id="equal">=</button>
+			</div>
+		</div>
+		<script>
+			function appendChar(char) {
+				document.getElementById("screen").value += char;
+			}
+
+			function clearScreen() {
+				document.getElementById("screen").value = "";
+			}
+
+			function deleteChar() {
+				let screen = document.getElementById("screen").value;
+				document.getElementById("screen").value = screen.substring(0, screen.length - 1);
+			}
+
+			function calculate() {
+				let screen = document.getElementById("screen").value;
+				let result = eval(screen);
+				document.getElementById("screen").value = result;
+			}
+		</script>
+	</body>
+</html>

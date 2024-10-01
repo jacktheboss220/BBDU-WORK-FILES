@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Google-Facebook-Email</title>
+		<style>
+			button {
+				padding: 10px 20px;
+				margin: 10px;
+				background-color: #4caf50;
+				color: white;
+				border: none;
+				cursor: pointer;
+				border-radius: 5px;
+			}
+
+			button:hover {
+				background-color: #45a049;
+			}
+            
+		</style>
+	</head>
+	<body>
+		<button type="button" onclick="handleGoogle()">Google</button>
+		<button type="button" onclick="handleFacebook()">Facebook</button>
+		<button type="button" onclick="handleGmail()">Gmail</button>
+		<script>
+			function handleGoogle() {
+				const google = window.open("https://www.google.com", "Google", "width=500, height=500 left=0 top=10");
+			}
+			function handleFacebook() {
+				const facebook = window.open(
+					"https://www.facebook.com",
+					"Facebook",
+					"width=500, height=500 left=510 top=10"
+				);
+			}
+			function handleGmail() {
+				const gmail = window.open("https://www.gmail.com", "Gmail", "width=500, height=500 left=1020 top=10");
+			}
+		</script>
+	</body>
+</html>
