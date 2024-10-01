@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function setCustomStatusMessage(message) {
+            let statusElement = document.getElementById('statusBar');
+            if (!statusElement) {
+                statusElement = document.createElement('div');
+                statusElement.id = 'statusBar';
+                statusElement.style.position = 'fixed';
+                statusElement.style.bottom = '0';
+                statusElement.style.width = '100%';
+                statusElement.style.backgroundColor = '#222';
+                statusElement.style.color = '#fff';
+                statusElement.style.padding = '10px';
+                statusElement.style.textAlign = 'center';
+                document.body.appendChild(statusElement);
+            }
+            statusElement.innerHTML = message;
+        }
+        // Example usage
+        setCustomStatusMessage(
+            "Welcome to the page! This is a custom status bar.");
+        setTimeout(() => setCustomStatusMessage(
+            "Status updated after 5 seconds!"), 5000);
+    </script>
+</body>
+</html>

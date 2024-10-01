@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="year">
+    <button onclick="handleYear()">Click Me</button><br>
+    <input type="text" id="message">
+    <script>
+        const year = document.querySelector("#year");
+        const message = document.querySelector("#message");
+        function handleYear() {
+            if (year.value % 4 == 0) {
+                if (year.value % 100 == 0) {
+                    if (year.value % 400 == 0) {
+                        message.value = "Leap Year";
+                    } else {
+                        message.value = "Not a Leap Year";
+                    }
+                } else {
+                    message.value = "Leap Year";
+                }
+            } else {
+                message.value = "Not a Leap Year";
+            }
+        }
+    </script>
+</body>
+</html>

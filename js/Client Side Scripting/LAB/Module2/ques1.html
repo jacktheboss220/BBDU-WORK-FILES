@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Create a cookie
+        document.cookie = "name=Tanjiro Kamado";
+        document.cookie = "age=19";
+        document.cookie = "city=Tokyo";
+        // Retrieve a cookie
+        let cookie = document.cookie;
+        let pre = document.createElement("pre");
+        pre.innerHTML = JSON.stringify(cookie, null, 2);
+        document.body.appendChild(pre);
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <input type="text" id="name" placeholder="Enter your name">
+        <input type="text" id="email" placeholder="Enter your email">
+        <input type="text" id="phone" placeholder="Enter your phone">
+        <button onclick="handleClick()">Submit</button>
+    </form>
+    <script>
+        const name = document.querySelector("#name");
+        const email = document.querySelector("#email");
+        const phone = document.querySelector("#phone");
+        function handleClick() {
+            alert("Name: " + name.value + "\nEmail: " + email.value +
+                "\nPhone: " + phone.value);
+        }
+    </script>
+</body>
+</html>
