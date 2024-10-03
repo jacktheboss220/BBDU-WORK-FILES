@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Create a cookie
+        document.cookie = "name=Tanjiro Kamado";
+        document.cookie = "age=19";
+        document.cookie = "city=Tokyo";
+        // Retrieve a cookie
+        let cookie1 = document.cookie;
+        let pre1 = document.createElement("pre");
+        pre1.innerHTML = JSON.stringify(cookie1, null, 2);
+        document.body.appendChild(pre1);
+        // Update a cookie
+        document.cookie = "name=Nezuko Kamado";
+        document.cookie = "age=17";
+        document.cookie = "city=Tokyo";
+        // Retrieve a cookie
+        let cookie2 = document.cookie;
+        let pre2 = document.createElement("pre");
+        pre2.innerHTML = JSON.stringify(cookie2, null, 2);
+        document.body.appendChild(pre2);
+        // Delete a cookie
+        document.cookie = "name=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+        document.cookie = "age=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+        document.cookie = "city=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+        // Retrieve a cookie
+        let cookie3 = document.cookie;
+        let pre3 = document.createElement("pre");
+        pre3.innerHTML = JSON.stringify(cookie3, null, 2);
+        document.body.appendChild(pre3);
+    </script>
+</body>
+</html>

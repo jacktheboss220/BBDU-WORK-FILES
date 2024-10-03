@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #rolloverText {
+            font-size: 24px;
+            color: #333;
+            transition: color 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="rolloverText">Hover over me!</h1>
+    <script>
+        const rolloverText = document.getElementById('rolloverText');
+        rolloverText.addEventListener('mouseover', () => {
+            rolloverText.innerHTML = 'You are hovering!';
+            rolloverText.style.color = '#ff6347';
+        });
+        rolloverText.addEventListener('mouseout', () => {
+            rolloverText.innerHTML = 'Hover over me!';
+            rolloverText.style.color = '#333';
+        });
+    </script>
+</body>
+</html>
