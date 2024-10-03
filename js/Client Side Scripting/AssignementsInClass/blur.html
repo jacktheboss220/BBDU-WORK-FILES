@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Blur Window</title>
+		<style>
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				position: fixed;
+				top: 0;
+				left: 0;
+				transition: filter 0.5s;
+			}
+			button {
+				position: fixed;
+				top: 10px;
+				right: 10px;
+				padding: 10px 20px;
+				font-size: 16px;
+				background-color: #333;
+				color: #fff;
+				border: none;
+				border-radius: 5px;
+				cursor: pointer;
+			}
+			.blur {
+				filter: blur(6px);
+			}
+		</style>
+	</head>
+	<body>
+		<img src="https://picsum.photos/1920/1080" alt="" />
+		<button onclick="handleBlur()">Blur</button>
+		<script>
+			const img = document.querySelector("img");
+			const button = document.querySelector("button");
+
+			function handleBlur() {
+				img.classList.toggle("blur");
+			}
+		</script>
+	</body>
+</html>

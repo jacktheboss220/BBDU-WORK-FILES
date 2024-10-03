@@ -1,3 +1,8 @@
 calculator 
 
 button => red,green,blue
+
+1. create a quize game that ask the users a series of question , keep track of the scores and display the result at the end
+2. create a function to blur the current window
+3. create a function to open a new tab with a specific url
+4. create a function to set a cookie with a specific name and value and expirtion date
