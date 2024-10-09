@@ -12,3 +12,6 @@ button => red,green,blue
 2. write a regex matched a stings starts with digits and ends with letter
 3. write a regex matches a string that container atleats one digits and letter
 
+4. write a regex matches a string that containes repeated parttern
+5. write a regex matches a string that contaeines a vaild email address
+6. write a regec matches a string that containes a vaild phone number
