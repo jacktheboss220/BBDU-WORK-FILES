@@ -10,6 +10,7 @@ public class checkBox {
         JLabel name = new JLabel("Name");
         name.setBounds(10, 10, 100, 30);
         frame.add(name);
+        // hello
 
         JTextField nameField = new JTextField();
         nameField.setBounds(120, 10, 200, 30);

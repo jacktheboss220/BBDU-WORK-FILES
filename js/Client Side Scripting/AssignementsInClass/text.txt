@@ -6,3 +6,9 @@ button => red,green,blue
 2. create a function to blur the current window
 3. create a function to open a new tab with a specific url
 4. create a function to set a cookie with a specific name and value and expirtion date
+
+
+1. write a regex matches a string starts with hello and end with world
+2. write a regex matched a stings starts with digits and ends with letter
+3. write a regex matches a string that container atleats one digits and letter
+
